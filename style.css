@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
+/*nav bar stays at top of screen after scrolling down, added background color*/
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
 /*newspaper layout*/
 
 body {
@@ -74,9 +82,6 @@ h4 {
 
 .more-articles {
     display: inline-flex;
-}
-
-.more-articles {
     padding: 0px 30px;
 }
 
